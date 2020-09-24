@@ -1,0 +1,130 @@
+
+.error{
+  color: red;
+  
+}
+
+.user-style{
+  background-color: lightblue;
+  border-radius: 50rem;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* nav section */
+.color-black{
+  color: #373d3f!important;
+}
+
+#collapsibleNavbar1{
+  position: absolute;
+  right: 0;
+}
+
+.icon-btn{
+  background: grey;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.close{
+   
+  margin-top: -2.4rem;
+  margin-right: 2rem;
+  opacity: 1;
+}
+
+.sidenav-style{
+ text-align: center;
+
+}
+
+.sidenav-style a{
+    color: #373d3f;
+    letter-spacing: 1px;
+}
+.sidenav-style a:hover{
+  text-decoration: none;
+  color: grey;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------ add new blog section         -----------------------------------*/
+
+.create-blog{
+    padding-top: 1.8rem;
+    padding-left: 1.1rem;
+}
+.form-control{
+    width: 50%;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------ about section         -----------------------------------*/
+.about{
+  padding-top: 1.8rem;
+  padding-left: 2rem;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------ home section         -----------------------------------*/
+.home{
+  padding-top: 1.8rem;
+  padding-left: 2rem;
+  color: #373d3f;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------ register section         -----------------------------------*/
+.register{
+  padding-top: 1.8rem;
+  padding-left: 1.1rem;
+  color: #373d3f;
+
+}
+
+.register h5{
+  margin-bottom: 1rem;
+  margin-left: 12rem;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------ login section         -----------------------------------*/
+.login{
+padding-top: 1.8rem;
+padding-left: 1.1rem;
+color: #373d3f;
+
+}
+
+.login h5{
+margin-bottom: 1rem;
+margin-left: 12rem;
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------ login section         -----------------------------------*/
+
+@media screen and (max-width:580px){
+
+.register h5,.login h5{
+  margin-bottom: 1rem;
+  margin-left: 0rem;
+}
+}
