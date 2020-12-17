@@ -27,7 +27,7 @@ export class Home extends Component {
                 )
             })
            
-        ):(<div><p>nothing to show </p></div>)
+        ):(<div><p>...loading</p></div>)
         return (
             <div className='container home'>
                <div>
